@@ -1,0 +1,4 @@
+This is a sample text file which will be used by other scripts: 
+Hi I'm Abhash Rai.
+This is the second line.
+This is the third line.
