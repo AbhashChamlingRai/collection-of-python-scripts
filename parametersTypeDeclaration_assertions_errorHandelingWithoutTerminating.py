@@ -35,10 +35,10 @@ for_integers2("2") # We have declared in function 'for_integers2', int value is 
 def for_integers3(p: int) -> str:
     print(p)
     return str(p)
-for_integers3(3) # The returned value is of type string and it is indicated in the line 34 after '->'. But, returning other types values won't throw error.
+for_integers3(3) # The returned value is of type string and it is indicated in the line 35 after '->'. But, returning other types values won't throw error.
 
 
-# 4 - Finally, performing single assertion:
+# 4 - Then, performing single assertion:
 def for_integers4(p: int) -> str:
     # assert <condition>, <optional error message>
     assert p > 0, "Positive integer value is required" # checking if passed value is positive
@@ -50,7 +50,7 @@ except Exception as e:
     traceback_printer()
 
 
-# 5 - Finally, performing single assertion:
+# 5 - Finally, performing multiple assertions:
 def for_integers4(p: int) -> str:
     # assert <condition>, <optional error message>
     assert type(p) is int, f"Value of type int is required, but type {type(p)} is given." # Check if passed value is integer; should be kep at first
