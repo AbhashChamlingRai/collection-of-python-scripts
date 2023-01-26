@@ -1,4 +1,4 @@
-from Lab8_library import BankAccount
+from Lab_8_library import BankAccount
 
 def main():
     # Creating 2 bank accounts and performing some transactions
